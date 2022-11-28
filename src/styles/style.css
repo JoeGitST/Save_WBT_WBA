@@ -1,0 +1,178 @@
+/* 
+******************************************************************************
+* @file    style.css
+* @author  MCD Application Team
+*
+ ******************************************************************************
+ * @attention
+ *
+ * Copyright (c) 2022-2023 STMicroelectronics.
+ * All rights reserved.
+ *
+ * This software is licensed under terms that can be found in the LICENSE file
+ * in the root directory of this software component.
+ * If no LICENSE file comes with this software, it is provided AS-IS.
+ *
+ ******************************************************************************
+ */
+div{
+	text-align: center;
+}
+#header{
+	background-color: #dee2e6;
+	padding-bottom: 1em;
+}
+
+img {
+	margin: 5px;
+	width: 16em;
+}
+
+.textInput {
+	margin: 20px;
+	text-align: center;
+	font-size: large;
+	width: 10em;
+	height: 3em;
+}
+
+.fileInput {
+	background: rgb(73, 102, 129);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #03234B;/* ST dark blue */
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	transition-duration: 1s;
+  }
+  
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+transform: scale(1.05);
+color: #3CB4E6;/* ST light blue */
+}
+
+#logPanel {
+	width: min-content;
+	position: absolute;
+    left: 0;
+    overflow: auto;
+	background-color: white;
+	height: -webkit-fill-available;
+	
+}
+
+.logElememt {
+	font-weight: bold;
+	margin-top: 5px;
+	background-color: white;
+	text-align: left;
+	float: left;
+	padding-left: 10px;
+	border-bottom: #3CB4E6 dotted 3px;
+	width: -webkit-fill-available;
+}
+
+.card-text {
+	text-align: left;
+}
+
+.iconInfo {
+	height: auto;
+	width: 28px; 
+	float: right; 
+	margin: 5px;
+}
+
+.defaultButton{
+	height: 38px;
+	border-radius: 2px;
+	background-color: #03234B;
+	border: #03234B solid 1px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.defaultButton.form-control {
+	height: 38px;
+	border-radius: 0px;
+	background-color: #03234B;
+	border: #03234B solid 1px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.defaultButton:hover {
+	border: #E6007E solid 1px;
+	background-color: #E6007E;
+}
+
+.defaultButton:disabled {
+	color: white;
+	background-color: #425a78;
+	border: #425a78 solid 1px;
+}
+  
+.defaultButton:disabled, .defaultButton.disabled, fieldset:disabled .defaultButton {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.custom-bg-danger {
+	background-color: #49B170;
+}
+
+.dangerButton {
+	height: 38px;
+	border-radius: 2px;
+	background-color: #49B170;
+	border: #49B170 solid 1px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.dangerButton:hover {
+	background-color: #04572F;
+	border: #04572F solid 1px;
+}
+
+.secondaryButton {
+	height: 38px;
+	border-radius: 2px;
+	background-color: #74747c;
+	border: #74747c solid 1px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.secondaryButton:hover {
+	background-color: #464650;
+	border: #464650 solid 1px;
+}
+
+.secondaryButton:disabled {
+	color: white;
+	background-color: #a2a2a7;
+	border: #a2a2a7 solid 1px;
+}
+
+#formFile {
+	content: "Pick file";
+}
